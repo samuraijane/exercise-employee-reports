@@ -108,14 +108,37 @@ const Main = () => {
         </div>
         <div className="report-block__report">
           {allEmployees && allEmployees.length > 0 && (
-            <ul className="report-block__employee-list">
-              {allEmployees.map((employee, index) => <li key={index}>{employee.name} / {employee.occupation} </li>)}
-            </ul>
+            <>
+              <h1>Employee List</h1>
+              <ul className="report-block__employee-list">
+                {allEmployees.map((employee, index) => <li key={index}>{employee.name} / {employee.occupation} </li>)}
+              </ul>
+            </>
           )}
-          {hrAdmins && <p>{hrAdmins.map((x, i) => <li key={i}>{x}</li>)}</p>}
-          {sales70k && <p>{sales70k.map((x, i) => <li key={i}>{x}</li>)}</p>}
-          {highestIT && <p>{highestIT}</p>}
-          {avgHRSalary && <p>{avgHRSalary}</p>}
+          {hrAdmins && (
+            <>
+              <h1>HR Administrators</h1>
+              <ul>{hrAdmins.map((x, i) => <li key={i}>{x}</li>)}</ul>
+            </>
+          )}
+          {sales70k && (
+            <>
+              <h1>Sales Reps Making &gt; $70k</h1>
+              <ul>{sales70k.map((x, i) => <li key={i}>{x}</li>)}</ul>
+            </>
+            )}
+          {highestIT && (
+            <>
+              <h1>Highest Paid IT Employee</h1>
+              <p>{highestIT}</p>
+            </>
+          )}
+          {avgHRSalary && (
+            <>
+              <h1>Average Salary of All Employees</h1>
+              <p>{avgHRSalary}</p>
+            </>
+          )}
         </div>
       </div>
     </main>
