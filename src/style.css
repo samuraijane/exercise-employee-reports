@@ -61,10 +61,15 @@ button {
   color: white;
   cursor: pointer;
   margin: 14px 0;
+  max-width: 160px;
   padding: 14px 24px;
 }
 
 .report-block__buttons {
   display: flex;
   flex-direction: column;
+}
+
+.report-block__50 {
+  width: 50%;
 }

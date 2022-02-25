@@ -99,14 +99,14 @@ const Main = () => {
   return (
     <main className="y-wrap">
       <div className="report-block">
-        <div className="report-block__buttons">
+        <div className="report-block__buttons report-block__50">
           <button onClick={() => handleClick('getData')}>Get Data</button>
           <button onClick={() => handleClick('hrAdmins')}>HR Admins</button>
           <button onClick={() => handleClick('sales70k')}>Sales 70k+</button>
           <button onClick={() => handleClick('highestIT')}>Hightest IT</button>
           <button onClick={() => handleClick('avgHRSalary')}>Avg HR Salary</button>
         </div>
-        <div className="report-block__report">
+        <div className="report-block__report report-block__50">
           {allEmployees && allEmployees.length > 0 && (
             <>
               <h1>Employee List</h1>
