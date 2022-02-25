@@ -30,7 +30,7 @@ main {
   flex: 1;
 }
 
-.report-block__employee-list {
+ul {
   list-style-type: none;
 }
 
