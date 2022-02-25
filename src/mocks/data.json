@@ -1,0 +1,62 @@
+{
+  "HR": [
+    {
+      "name": "Brian Howell",
+      "occupation": "HR Administrator",
+      "city": "Houston",
+      "salary": 55000
+    },
+    {
+      "name": "Stacey Sanders",
+      "occupation": "HR Administrator",
+      "city": "Houston",
+      "salary": 55000
+    },
+    {
+      "name": "Shawn Fernandex",
+      "occupation": "HR Manager",
+      "city": "Houston",
+      "salary": 80000
+    }
+  ],
+  "Sales": [
+    {
+      "name": "Pedro Carpenter",
+      "occupation": "Sales Engineer",
+      "city": "Dallas",
+      "salary": 50000
+    },
+    {
+      "name": "Tyler Henry",
+      "occupation": "Sales Engineer",
+      "city": "Dallas",
+      "salary": 65000
+    },
+    {
+      "name": "Erica Soto",
+      "occupation": "Sales Engineer",
+      "city": "Dallas",
+      "salary": 75000
+    },
+    {
+      "name": "Ann Kelley",
+      "occupation": "Sales Manager",
+      "city": "Dallas",
+      "salary": 95000
+    }
+  ],
+  "IT": [
+    {
+      "name": "Courtney Kennedy",
+      "occupation": "Help Desk Technician",
+      "city": "Austin",
+      "salary": 45000
+    },
+    {
+      "name": "Warren Powell",
+      "occupation": "Help Desk Technician",
+      "city": "Austin",
+      "salary": 46000
+    }
+  ]
+}
